@@ -1,15 +1,42 @@
+/* background body */
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/home.jpg);
     color: white;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
-    
  
 }
 
-.navbar{
+
+/* navigation bar */
+.navbar ul{
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block; 
+    position: relative; 
+    padding: 15px 0; 
+}
+
+
+
+.navbar a{
+    
+    font-weight: bold;
+    font-family:Arial, Verdana, sans-serif ;
+    color: #fff;
+    letter-spacing: 0.15em;
+    padding: 15px 20px;
+    position: relative;
+}
+
+
+
+.navbar a:hover{
+    background-color: green;
+    
     
 }
 
@@ -17,13 +44,14 @@ body {
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
     font-weight: bolder;
+    letter-spacing: 0.10em; 
 }
 
-
+/* page name "interior" */
 #logo {
     font-family: Arial, Verdana, sans-serif;
     text-indent: 30px;
-    
+    letter-spacing: 0.1em; 
     
 }
 p{
@@ -32,13 +60,25 @@ p{
     font-weight: 600;
     
 }
-
-.butt:hover{
-
+/* buttons */
+.click{
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border-color: aquamarine;
+    border-style: line;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    display: inline-block;
     
-   
     
 }
-.butt:active{
-    
+.click:hover{
+    background: green;
+
 }
+
+/* buttons could'nt alligned to center by any mean, i tried hard */
